@@ -1,6 +1,6 @@
 import { useCallback } from "react"
-import { useCustomFetch } from "src/hooks/useCustomFetch"
-import { SetTransactionApprovalParams } from "src/utils/types"
+import { useCustomFetch } from "../../hooks/useCustomFetch"
+import { SetTransactionApprovalParams } from "../../utils/types"
 import { TransactionPane } from "./TransactionPane"
 import { SetTransactionApprovalFunction, TransactionsComponent } from "./types"
 
