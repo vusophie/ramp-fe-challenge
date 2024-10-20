@@ -121,6 +121,7 @@ function getTimeout() {
 
 export type RegisteredEndpoints =
   | "employees"
+  | "allTransactions"
   | "paginatedTransactions"
   | "transactionsByEmployee"
   | "setTransactionApproval"
